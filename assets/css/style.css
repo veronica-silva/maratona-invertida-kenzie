@@ -5,7 +5,11 @@
     padding: 0;
 }
 
-
+body{
+    background-color: #0d0d0d;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
 
 .header-logo{
     width: 100%;
@@ -19,18 +23,19 @@
 }
 
 .header-infos{
-    padding-top: 15vh;
+    padding-top: 8vh;
     background-image: url(../img/banner.png);
     background-size: cover;
     width: 100%;
     height: 50vh;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-infos h1{
     color: #ffffff;
     font-size: 5vh;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 .header-infos p{
@@ -39,6 +44,101 @@
 }
 
 .fa-brands{
+    font-size: 8vh;
+    margin-right: 2vw;
+    padding-top: 8vh;
+}
+
+.fa-html5{
+    color: #F1481C;
+}
+
+.fa-css3-alt{
+    color: #2C4AD6;
+}
+
+.fa-js{
+    color: #EAD41C;
+}
+
+.main-nav{
+    font-size: 3vh;
+    color: #ffffff;  
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.main-nav h3{
+    font-size: 5vh;
+    color: #ffffff;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10vh;
+}
+
+.main-nav li{
+    color: #ffffff;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 13.5vw;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+.main-vitrine{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-card{
+    background-image: url(../img/imagemCard.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.main-card-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-card-top h2{
     font-size: 5vh;
 }
 
+.main-card-top span{
+    font-size: 3vh;
+}
+
+.main-card-bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end ;
+    margin-bottom: 10vh;
+}
+
+.main-card-bottom p{
+    width: 70%;
+    font-size: 2.5vh;
+}
+
+.main-card-bottom span{
+    font-size: 2.5vh;
+}
