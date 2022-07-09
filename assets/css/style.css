@@ -19,6 +19,7 @@
 }
 
 .header-infos{
+    padding-top: 15vh;
     background-image: url(../img/banner.png);
     background-size: cover;
     width: 100%;
@@ -35,5 +36,9 @@
 .header-infos p{
     color: #ffffff;
     font-size: 3vh;
+}
+
+.fa-brands{
+    font-size: 5vh;
 }
 
