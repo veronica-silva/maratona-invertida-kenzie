@@ -61,6 +61,15 @@ body{
     color: #EAD41C;
 }
 
+main{
+    display: flex;
+}
+
+.main-left{
+    width: 60vw;
+}
+
+
 .main-nav{
     font-size: 3vh;
     color: #ffffff;  
@@ -94,7 +103,7 @@ body{
 }
 
 .main-vitrine{
-    width: 60%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -141,4 +150,47 @@ body{
 
 .main-card-bottom span{
     font-size: 2.5vh;
+}
+
+
+.main-playlist{
+    width: 39vw;
+}
+
+.playlist-li{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    background-color: #141414;
+}
+
+.playlist-li-center{
+ width: 50%;
+}
+
+.playlist-li-center div h4{
+    font-size: 2vh;
+}
+
+.playlist-li-play{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    align-items: center;
+}
+
+.playlist-li-play{
+
+}
+
+.playlist-li-end{
+ width: 25%;
+}
+
+.playlist-li-end button{
+    width: 25%;
+    height: 25%;
+    background-color: #141414;
+    color: #ffffff;
+    border: none;
 }
