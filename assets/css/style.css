@@ -63,6 +63,7 @@ body{
 
 main{
     display: flex;
+    padding: 2vh 2vw;
 }
 
 .main-left{
@@ -78,7 +79,7 @@ main{
     gap: 30px; 
 }
 
-.main-nav h3{
+h3{
     font-size: 5vh;
     color: #ffffff;
 }
@@ -102,6 +103,13 @@ main{
     border-radius: 50px;
 }
 
+.main-nav li:hover{
+    background-color: #ffffff;
+    color: #0d0d0d;
+}
+
+
+
 .main-vitrine{
     width: 100%;
     height: auto;
@@ -116,6 +124,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10vh;
+    padding: 2vh 2vw;
 }
 
 .main-card-top{
@@ -141,31 +150,42 @@ main{
     flex-direction: row;
     align-items: flex-end ;
     margin-bottom: 10vh;
+    
 }
 
 .main-card-bottom p{
     width: 70%;
     font-size: 2.5vh;
+
 }
 
 .main-card-bottom span{
     font-size: 2.5vh;
+    text-align: left;
 }
 
+.main-card-bottom span:hover{
+    cursor: pointer;
+}
 
 .main-playlist{
     width: 39vw;
+    padding: 2vh 2vw;
 }
 
 .playlist-li{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 110px;
     background-color: #141414;
+    border: 1px solid #0d0d0d;
+    padding: 1vh 1vw;
 }
 
 .playlist-li-center{
  width: 50%;
+ padding: 2vh 2vw;
 }
 
 .playlist-li-center div h4{
@@ -179,8 +199,9 @@ main{
     align-items: center;
 }
 
-.playlist-li-play{
-
+.playlist-li-play span{
+    text-align: right;
+    cursor: pointer;
 }
 
 .playlist-li-end{
@@ -189,8 +210,15 @@ main{
 
 .playlist-li-end button{
     width: 25%;
-    height: 25%;
+    height: 50%;
     background-color: #141414;
     color: #ffffff;
     border: none;
+    margin-top: 10px;
 }
+
+.playlist-li-end button:hover{
+    cursor: pointer;
+}
+
+
